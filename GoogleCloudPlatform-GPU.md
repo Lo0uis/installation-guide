@@ -1,5 +1,5 @@
-## [Google Cloud Platform with GPUs]
-for studying cs231 class.
+## Google Cloud Platform with GPUs
+for studying cs231n class.
 
 ### 순서
 - google 로그인 & google cloud platform 설정
@@ -14,17 +14,17 @@ for studying cs231 class.
 #### 0. google 로그인 & google cloud platform 설정
 구글에 로그인은 알아서 하기 바람.
 ****
-![enter the GCP](/gcp-img/0-1.png)
+![enter the GCP](/gcp-img/0-1.PNG)
 
 로그인 후 google cloud platform을 들어가면 초기에 setting 창이 뜸.
 각자 알아서 읽어보고 마지막 agrre만 하면 됨.
 
-![rename project](/gcp-img/0-2.png)
+![rename project](/gcp-img/0-2.PNG)
 
 default로 설정되어 있는 프로젝트 이름을 'Go to project settings'로 가면 바꿀 수 있음.
 
 #### 1. 언어 변경
-![change the language](/gcp-img/1-1.png)
+![change the language](/gcp-img/1-1.PNG)
 
 언어를 한국어에서 영어로 변경.\
 (언어 변경 은 상단의 search bar에서 검색하면 쉽게 이동할 수 있다.)
@@ -33,22 +33,22 @@ default로 설정되어 있는 프로젝트 이름을 'Go to project settings'�
 ```diff
 - 이때 만약 화면 상단에 계정 업그레이드가 팝업으로 뜬다면, 업그레이드를 우선적으로 진행할 것.
 ```
-![move to quotas setting](/gcp-img/2-1.png)
+![move to quotas setting](/gcp-img/2-1.PNG)
 
 언어를 변경했다면, menu bar를 눌러서 'IAM & admin' 섹션의 quotas를 클릭한다.
 
-![set quotas](/gcp-img/2-2.png)
+![set quotas](/gcp-img/2-2.PNG)
 
 내가 앞으로 쓸 서버와 GPU에 해당하는 quotas를 찾자.
 - Service : Compute Engine API
 - Metric : NVIDIA K80 GPUs
 - Location : us-west1
 
-![edit quotas](/gcp-img/2-3.png)
+![edit quotas](/gcp-img/2-3.PNG)
 
 그다음 'EDIT QUITAS'를 누르고, 해당 service의 check box를 누른다.
 
-![submit quotas](/gcp-img/2-4.png)
+![submit quotas](/gcp-img/2-4.PNG)
 
 그러면 오른쪽 화면과 같이 New quota limit과 Description을 작성하는 popup이 생성된다.
 다음과 같이 작성하자.
