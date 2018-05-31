@@ -59,7 +59,7 @@ default로 설정되어 있는 프로젝트 이름을 'Go to project settings'�
 +> 이 과정은, google에서 gpu 할당을 원하는 사람한테만 해주므로, 1개 gpu할당해 달라고 요청하는 작업.
 ```
 ****
-![get Email](/gcp-img/2-5.PNG)
+![get Email](/gcp-img/2-5.png)
 
 2-3 Business days 후에 다음과 같은 메일을 받게 되면 GPU를 사용가능하다.
 ****
@@ -68,11 +68,11 @@ default로 설정되어 있는 프로젝트 이름을 'Go to project settings'�
 새로운 VM을 생성하기 위해 아래와 같은 순서로 진행하면 된다.
 이때, 이름은 자신이 원하는 것으로 바꾸길.
 
-![create VM](/gcp-img/3-1.PNG)
+![create VM](/gcp-img/3-1.png)
 
-![create VM2](/gcp-img/3-2.PNG)
+![create VM2](/gcp-img/3-2.png)
 
-![create VM3](/gcp-img/3-3.PNG)
+![create VM3](/gcp-img/3-3.png)
 
 ****
 
