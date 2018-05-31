@@ -59,3 +59,7 @@ default로 설정되어 있는 프로젝트 이름을 'Go to project settings'�
 ```diff
 +> 이 과정은, google에서 gpu 할당을 원하는 사람한테만 해주므로, 1개 gpu할당해 달라고 요청하는 작업.
 ```
+****
+![get Email](/gcp-img/2-5.PNG)
+
+2-3 Business days 후에 다음
