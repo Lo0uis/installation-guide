@@ -5,7 +5,6 @@ for studying cs231n class.
 - google 로그인 & google cloud platform 설정
 - 언어 변경
 - quota 변경 요청
-- (image 설정)
 - 새로운 instance 생성
 ￼- ssh를 통해 vm에 연결
 - 프레임워크 설치
@@ -62,4 +61,18 @@ default로 설정되어 있는 프로젝트 이름을 'Go to project settings'�
 ****
 ![get Email](/gcp-img/2-5.PNG)
 
-2-3 Business days 후에 다음
+2-3 Business days 후에 다음과 같은 메일을 받게 되면 GPU를 사용가능하다.
+****
+#### 3. 새로운 instance 생성
+
+새로운 VM을 생성하기 위해 아래와 같은 순서로 진행하면 된다.
+이때, 이름은 자신이 원하는 것으로 바꾸길.
+
+![create VM](/gcp-img/3-1.PNG)
+
+![create VM2](/gcp-img/3-2.PNG)
+
+![create VM3](/gcp-img/3-3.PNG)
+
+****
+
